@@ -64,7 +64,7 @@ Vector2D Vector2D::operator-(Vector2D& other)
 	return result;
 }
 
-Vector2D Vector2D::operator*(double& other)
+Vector2D Vector2D::operator*(double other)
 {
 	Vector2D result(this->GetX() * other, this->GetY() * other);
 	return result;
